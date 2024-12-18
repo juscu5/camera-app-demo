@@ -1,0 +1,24 @@
+{
+  "name": "mycameraapp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start --dev-client",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web",
+    "expo-build:dev": "eas build -p android --profile preview"
+  },
+  "dependencies": {
+    "expo": "^51.0.9",
+    "expo-camera": "~15.0.10",
+    "expo-status-bar": "~1.12.1",
+    "react": "18.2.0",
+    "react-native": "0.74.1",
+    "expo-media-library": "~16.0.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
